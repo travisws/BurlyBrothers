@@ -1,13 +1,40 @@
 <head>
-  <title>burlybrothers</title>
+  <title>Burly Brothers Supply Co.</title>
 </head>
-
-<template name="MainLayout">
-  <main>
-    <div class="logo">
-        <img src="/logo.jpg" width="90" height="90"/>
-    </div>
-    {{> Template.dynamic template=main}}
-
-  </main>
-</template>
+<body>
+	<template name="MainLayout">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="row">
+						<div class="col-md-2">
+							<a href="Home">HOME</a>
+						</div>
+						<div class="col-md-2">
+							<a href="Shop">SHOP</a>
+						</div>
+						<div class="col-md-2">
+							<a href="Us">US</a>
+						</div>
+						<div class="col-md-2">
+							<a href="Blog">BLOG</a>
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<main>
+						<div class="logo">
+							<img src="/logo.jpg" width="90" height="90"/>
+						</div>
+						{{> Template.dynamic template=main}}
+					</main>
+				</div>
+				<div class="col-md-5">
+				</div>
+			</div>
+		</div>
+	</template>
+</body>
+<footer>
+</footer>
