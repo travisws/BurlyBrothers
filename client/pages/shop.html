@@ -1,0 +1,15 @@
+<template name="Shop">
+  <h1>shop</h1>
+ <head>
+    <title>Custom Registration Tutorial</title>
+</head>
+<body>
+  {{> index}}
+    {{#if currentUser}}
+        {{> dashboard}} 
+    {{else}}
+        {{> register}}
+        {{> login}}
+    {{/if}}
+</body>
+</template>

@@ -1,0 +1,14 @@
+/* CSS declarations go here */
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  /*margin-left: 100px 1000px 0px 300px;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
