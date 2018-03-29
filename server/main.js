@@ -5,7 +5,7 @@ import {
 Meteor.startup(() => {
   smtp = {
     username: 'magictasman@gmail.com', // eg: server@gentlenode.com
-    password: 'Bicycleghost12', // eg: 3eeP1gtizk5eziohfervU
+    password: 'yyyyyy', // eg: 3eeP1gtizk5eziohfervU
     server: 'smtp.gmail.com', // eg: mail.gandi.net
     port: 465
   }
