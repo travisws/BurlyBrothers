@@ -20,13 +20,20 @@ shell-server@0.3.1            # Server-side component of the `meteor shell` comm
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
 insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
 
-kadira:flow-router
-kadira:blaze-layout
-alexwine:bootstrap-4
-
 accounts-ui
 accounts-base
 accounts-password
 
-useraccounts:unstyled
+kadira:flow-router
+kadira:blaze-layout
+mizzao:bootstrap-3
+
+aldeed:template-extension
+
 raix:handlebar-helpers
+meteortoys:allthings
+
+fortawesome:fontawesome
+
+email
+themeteorchef:bert

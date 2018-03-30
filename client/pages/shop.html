@@ -1,3 +1,26 @@
 <template name="Shop">
   <h1>shop</h1>
+ <head>
+    <title>Custom Registration Tutorial</title>
+</head>
+<body>
+  {{#unless currentUser.emails.[0].verified}}
+      {{> index}}
+
+    {{else}}
+    {{#if currentUser}}
+        {{> logout}}
+        {{> changePassword}}
+        {{> resetPassword}}
+    {{else}}
+        {{> register}}
+        {{> login}}
+    {{/if}}
+  {{/unless}}
+</body>
+</template>
+
+<template name="sendLink">
+  <p class="info"><a href="#" class="send-reset-password-link">Resend verification link</a></p>
+
 </template>
