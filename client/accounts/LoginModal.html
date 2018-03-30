@@ -15,29 +15,11 @@
     </form>
 </template>
 
-<<<<<<< HEAD
 <template name="logout">
-=======
-<template name="dashboard">
->>>>>>> fdbcc274f271429f36c77cf140323b93e0312f73
     <p>You're logged in.</p>
     <p><a href="#" class="logout">Logout</a></p>
 </template>
 
-<<<<<<< HEAD
-=======
-<template name="recovery">
-    <form id="new-passwored" action="action">
-      <input type="text" class="form-control" name="new-password-password"/>
-      <input type="submit" class="form-control" value="change password" />
-    </form>
-      <form id="recovery-form" action="action">
-        <input type="text" class="form-control" name="recovery-email"/>
-        <input type="submit" class="form-control" value="send Reset Instrucions"/>
-      </form>
-</template>
-
->>>>>>> fdbcc274f271429f36c77cf140323b93e0312f73
 <template name="index">
 {{#unless currentUser.emails.[0].verified}}
   <p class="alert alert-warning">You need to verify your email address before using. <a href="#" class="resend-verification-link">Resend verification link</a>.</p>
