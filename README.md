@@ -22,6 +22,3 @@ fortawesome:fontawesome
 
 email
 themeteorchef:bert
-
-
-export MAIL_URL="smtps://magictasman@gmail.com:druqodrcoejwkjzb@smtp.gmail.com:465"

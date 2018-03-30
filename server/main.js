@@ -4,7 +4,6 @@ import {
 
 if (Meteor.isServer) {
   Meteor.startup(() => {
-    process.env.MAIL_URL = "smtps://magictasman@gmail.com:druqodrcoejwkjzb@smtp.gmail.com:465"
     Accounts.emailTemplates.from = "Verfication Link"
 
     Accounts.urls.resetPassword = function(token) {

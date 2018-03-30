@@ -1,0 +1,35 @@
+<template name="loginModal">
+  <div class="modal fade in" id="loginModalButton" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h1 class="modal-title">Welcome to Burly Brothers Supply Co.</h1>
+        </div>
+        <div class="modal-body">
+          {{#if currentUser}}
+          {{else}}
+          <form>
+              <p>Email: <input type="email" name="loginEmail"></p>
+              <p>Password: <input type="password" name="loginPassword"></p>
+              <p><input type="submit" value="Login"></p>
+          </form>
+          {{> createAccount}}
+          {{> createAccountButton}}
+          {{> changePasswordButton}}
+          {{> logout}}
+          {{#unless currentUser.emails.[0].verified}}
+          {{else}}
+            {{> changePasswordButton}}
+          {{/unless}}
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="loginModalButton">
+  <input type="button" class="open-modal" value="SIGN IN" />
+  <a href="#" data-toggle="modal" data-target="#loginModalButton">sign in</a>
+</template>

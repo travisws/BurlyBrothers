@@ -26,7 +26,6 @@ accounts-password
 
 kadira:flow-router
 kadira:blaze-layout
-mizzao:bootstrap-3
 
 aldeed:template-extension
 
@@ -37,3 +36,4 @@ fortawesome:fontawesome
 
 email
 themeteorchef:bert
+twbs:bootstrap
