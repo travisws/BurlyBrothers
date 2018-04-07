@@ -8,6 +8,11 @@ body {
 	 font-family: Arial;
 }
 
+.Top-Pad {
+	padding-top: 6%;
+	display: block;
+}
+
 .logo {
   display: block;
   margin-left: auto;
