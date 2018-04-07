@@ -1,5 +1,9 @@
 /* CSS declarations go here */
 
+body {
+  font-family: Rubic;
+}
+
 .logo {
   display: block;
   margin-left: auto;
