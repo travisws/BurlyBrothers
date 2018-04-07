@@ -4,6 +4,10 @@ body {
 	font-family: 'Rubik', sans-serif;
 }
 
+.F-Arial {
+	 font-family: Arial;
+}
+
 .logo {
   display: block;
   margin-left: auto;
